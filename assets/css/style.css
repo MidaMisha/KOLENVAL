@@ -112,11 +112,7 @@ header .skinhead a {
     gap: 15px;
 }
 
-.imgimg:hover{
-    transform: rotate(360deg);
-}
-
-#misha{
+#misha {
     position: absolute;
     display: block;
     width: 100%;
@@ -139,18 +135,21 @@ header .skinhead a {
     font-weight: 700;
 }
 
-.skinhead a{
+.skinhead a {
     font-weight: 700;
 }
 
 .buttons .btn_2 {
-    font-weight: 700;
     font-size: 24px;
 }
 
-.skinhead .btn:hover{
+.skinhead .btn:hover {
     background-color: #FFFFFF;
     color: #23204A;
+}
+
+.burger {
+    display: none;
 }
 
 header .container {
@@ -311,7 +310,7 @@ header .stick {
     left: 45px;
 }
 
-.card .btn:hover{
+.card .btn:hover {
     color: #2361FF;
     background-color: transparent;
 }
@@ -391,7 +390,7 @@ header .stick {
     width: 80px;
     font-size: 50px;
     padding-top: 9px;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 .re_card {
@@ -408,10 +407,11 @@ header .stick {
 }
 
 
-#leftBTN{
+#leftBTN {
     cursor: pointer;
 }
-#rightBTN{
+
+#rightBTN {
     cursor: pointer;
 }
 
@@ -668,7 +668,7 @@ li {
 }
 
 
-.product .btn:hover{
+.product .btn:hover {
     background-color: transparent;
     color: #2361FF;
 }
@@ -797,7 +797,7 @@ li {
     font-size: 26px;
 }
 
-.p_ac span{
+.p_ac span {
     margin-right: 85px;
     opacity: .6;
 }
@@ -820,4 +820,895 @@ li {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+    .container {
+        max-width: 720px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 25px;
+
+    }
+
+    .head_bg {
+        padding: 8px 0;
+    }
+
+    header .skinhead {
+        max-width: 700px;
+    }
+
+    header img {
+        height: 20px;
+    }
+
+    header .skinhead a {
+        font-size: 15px;
+    }
+
+    .tel {
+        gap: 5px;
+    }
+
+    .mail {
+        gap: 5px;
+    }
+
+    .buttons {
+        gap: 5px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    .buttons .btn_2 {
+        font-size: 15px;
+    }
+
+    header .container {
+        padding: 10px 0;
+    }
+
+    header nav {
+        width: 300px;
+    }
+
+    header .container a {
+        font-size: 19px;
+    }
+
+    /* banner */
+    .banner_bg {
+        height: 700px;
+        padding-top: 100px;
+    }
+
+    .banner_text {
+        gap: 30px;
+    }
+
+    .banner_text .btn {
+        width: 300px;
+        font-size: 22px;
+    }
+
+    .polosa {
+        height: 5px;
+        width: 600px;
+    }
+
+    .ban_preim {
+        margin-top: 120px;
+    }
+
+    .preim {
+        padding: 20px;
+        padding-bottom: 15px;
+    }
+
+    .stick {
+        height: 130px;
+        width: 2px;
+        background-color: #FFFFFF;
+    }
+
+    .preim_card p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25.88px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .title {
+        margin-top: 100px;
+        margin-bottom: 35px;
+    }
+
+    .card_box {
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .card_box .card {
+        width: 295px;
+        height: 623px;
+        padding: 15px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .sales {
+        margin-top: 100px;
+    }
+
+    .sale_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sale_card {
+        width: 85%;
+    }
+
+    /* reviews */
+    .reviews {
+        margin-top: 100px;
+    }
+
+    .reviews h2 {
+        font-size: 35px;
+    }
+
+    .re_box {
+        gap: 15px;
+        width: 90%;
+    }
+
+    .re_head {
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    .re_head p {
+        height: 60px;
+        width: 80px;
+        font-size: 40px;
+        padding-top: 5px;
+        padding-left: 16px;
+    }
+
+    .re_card {
+        gap: 20px;
+        padding: 30px;
+        min-width: 350px;
+        min-height: 390px;
+    }
+
+    /* sub */
+    .sub_bg {
+        height: 332px;
+        padding: 60px 0;
+    }
+
+    .sub {
+        padding: 40px 40px 40px 30px;
+        height: 220px;
+    }
+
+    .sub h3 {
+
+        font-size: 26px;
+    }
+
+    .sub p {
+        font-size: 18px;
+    }
+
+    .sub input {
+        width: 290px;
+        height: 35px;
+        font-size: 15.03px;
+    }
+
+    .sub input::placeholder {
+        color: #ffffff;
+        opacity: 1;
+    }
+
+    .sub .btn {
+        height: 40px;
+        width: 190px;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+
+    /* footer */
+    footer {
+        padding-top: 30px;
+    }
+
+    footer img {
+        width: 200px;
+    }
+
+    .icons img {
+        width: 50px;
+    }
+
+    .foot_s {
+        margin-top: 24px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    /* catalog page */
+    .catalog {
+        margin-top: 50px;
+    }
+
+    .catalog h1 {
+        margin-bottom: 30px;
+    }
+
+    .filtering {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .filtering .stick {
+        height: 25px;
+        width: 2px;
+    }
+
+    .btn-filtering {
+        font-size: 22px;
+    }
+
+    /* product page */
+    .product h1 {
+        margin-top: 150px;
+    }
+
+    .product {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .start {
+        margin-top: 100px;
+        justify-content: start;
+        gap: 40px;
+        margin-bottom: 150px;
+    }
+
+    .product .btn {
+        position: absolute;
+        margin-top: 0;
+        border-radius: 8px;
+        padding: 18px 70px;
+        z-index: 10;
+        top: 610px;
+        right: 0;
+    }
+
+    .calendar img {
+        width: 40px;
+    }
+
+    .avtomat img {
+        width: 45px;
+    }
+
+    .product .pos {
+        top: 80px;
+        right: -50px;
+        width: 400px;
+    }
+
+    /* registration page */
+    .registration {
+        margin-top: 150px;
+        height: 1100px;
+        width: 550px;
+        border-radius: 15px;
+        padding: 40px 80px 80px 80px;
+        margin-bottom: 20dvh;
+    }
+
+
+    .registration label {
+        margin-top: 16px;
+        margin-bottom: 14px;
+    }
+
+
+    .registration .help {
+        margin-top: 25px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .imgs {
+        margin-bottom: 45px;
+    }
+
+    .registration input[type="submit"] {
+        font-size: 26px;
+    }
+
+    /* autorization page */
+    .autorization {
+        margin-top: 150px;
+        height: 800px;
+        width: 550px;
+        border-radius: 15px;
+        padding: 40px 80px 80px 80px;
+        margin-bottom: 20dvh;
+    }
+
+    .autorization h3 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .autorization label {
+        margin-top: 16px;
+        margin-bottom: 15px;
+    }
+
+    .p_ac span {
+        margin-right: 150px;
+        opacity: .6;
+    }
+
+    .autorization .help {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+
+    .autorization input[type="submit"] {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:720px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    header .head_bg .skinhead {
+        display: none;
+    }
+
+    header .container>nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 26px;
+        line-height: 150%;
+    }
+    h3 {
+        font-size: 20px;
+
+    }
+
+    .ban_preim h2 {
+        font-size: 40px;
+    }
+
+    .head_bg {
+        padding: 0;
+    }
+
+    .tel {
+        gap: 5px;
+    }
+
+    .mail {
+        gap: 5px;
+    }
+
+    .buttons {
+        gap: 5px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .buttons .btn_2 {
+        font-size: 10px;
+    }
+
+    header .container {
+        padding: 10px 0;
+    }
+
+    header .container img {
+        width: 120px;
+        height: 25px;
+    }
+
+    header nav {
+        width: 300px;
+    }
+
+    header .container a {
+        font-size: 13px;
+    }
+
+    #burger,
+    [for=burger] {
+        display: none;
+    }
+
+    [for=burger] {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        z-index: 500;
+    }
+
+    span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #2361FF;
+        position: relative;
+    }
+
+    span::before,
+    span::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #2361FF;
+    }
+
+    span::before {
+        top: -8px;
+    }
+
+    span::after {
+        top: 8px;
+    }
+
+    .burger .df {
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: #23204A;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 60px;
+        transition: .5s;
+    }
+
+    .burger .df a {
+        display: block;
+        padding: 15px 20px;
+        color: #ffffff;
+        border-bottom: 1px solid #ddd;
+        font-size: 25px;
+    }
+
+
+    #burger:checked ~ nav {
+        left: 0;
+    }
+
+    #burger:checked~label span {
+        background-color: transparent;
+    }
+
+    #burger:checked~label span:before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+
+    #burger:checked~label span:after {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    [for=burger] {
+        display: block;
+    }
+
+    .burger .skinhead{
+        display: block;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+/* banner */
+.banner_bg {
+    height: 600px;
+    padding-top: 40px;
+}
+
+.banner_text {
+    gap: 30px;
+}
+
+.banner_text .btn {
+    width: 250px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.polosa {
+    height: 3px;
+    width: 260px;
+}
+
+.ban_preim {
+    margin-top: 60px;
+}
+
+.preim {
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+.preim_card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.preim_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.stick {
+    height: 2px;
+    width: 200px;
+    background-color: #FFFFFF;
+}
+
+.preim_card p {
+    font-size: 15px;
+    line-height: 25.88px;
+}
+
+.title {
+    margin-top: 150px;
+    margin-bottom: 35px;
+}
+
+.card_box {
+    justify-content: center;
+    gap: 60px;
+}
+
+.card_box .card {
+    width: 245px;
+    height: 623px;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 100px;
+}
+
+.sales {
+    margin-top: 100px;
+}
+
+.sales h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sale_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sale_card {
+    width: 95%;
+    height: 200px;
+}
+
+.sale_card h3 {
+    font-size: 17px;
+    line-height: 150%;
+}
+
+.sale_card .stick {
+    width: 150px;
+}
+
+.sale_card .s_c {
+    bottom: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* reviews */
+.reviews {
+    margin-top: 100px;
+}
+
+.reviews h2 {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.re_box {
+    gap: 20px;
+    width: 90%;
+}
+
+.re_head {
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+.re_card {
+    gap: 20px;
+    padding: 20px;
+    min-width: 280px;
+    min-height: 220px;
+}
+
+.re_1 {
+    width: 30px;
+}
+
+.re_card .desc {
+    font-size: 18px;
+}
+
+.stars img {
+    width: 23px;
+}
+
+.stars {
+    width: 120px;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.person p {
+    font-size: 18px;
+}
+
+.re_card .person {
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.slider a .c {
+    width: 15px;
+    height: 15px;
+}
+
+
+/* sub */
+.sub_bg {
+    width: 100%;
+    height: 452px;
+    padding: 40px 0;
+}
+
+.sub {
+    padding: 20px 20px 20px 20px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.sub h3 {
+    font-size: 20px;
+}
+
+.sub p {
+    font-size: 16px;
+}
+
+/* footer */
+footer {
+    padding-top: 30px;
+}
+
+footer img {
+    width: 150px;
+}
+
+.icons img {
+    width: 35px;
+}
+
+.foot_s {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 15px;
+    flex-direction: column;
+}
+
+/* catalog page */
+.catalog {
+    margin-top: 50px;
+}
+
+.catalog h1 {
+    margin-bottom: 30px;
+}
+
+.filtering {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.filtering .stick {
+    height: 25px;
+    width: 2px;
+}
+
+.btn-filtering {
+    font-size: 22px;
+}
+
+/* product page */
+.product h1 {
+    margin-top: 150px;
+}
+
+.product {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.start {
+    margin-top: 100px;
+    justify-content: start;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.product .btn {
+    position: absolute;
+    margin-top: 0;
+    border-radius: 8px;
+    padding: 18px 70px;
+    z-index: 10;
+    top: 610px;
+    right: 0;
+}
+
+.calendar img {
+    width: 40px;
+}
+
+.avtomat img {
+    width: 45px;
+}
+
+.product .pos {
+    top: 80px;
+    right: -50px;
+    width: 400px;
+}
+
+/* registration page */
+.registration {
+    margin-top: 150px;
+    height: 1100px;
+    width: 550px;
+    border-radius: 15px;
+    padding: 40px 80px 80px 80px;
+    margin-bottom: 20dvh;
+}
+
+
+.registration label {
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+
+
+.registration .help {
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.imgs {
+    margin-bottom: 45px;
+}
+
+.registration input[type="submit"] {
+    font-size: 26px;
+}
+
+/* autorization page */
+.autorization {
+    margin-top: 150px;
+    height: 800px;
+    width: 550px;
+    border-radius: 15px;
+    padding: 40px 80px 80px 80px;
+    margin-bottom: 20dvh;
+}
+
+.autorization h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.autorization label {
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.p_ac span {
+    margin-right: 150px;
+    opacity: .6;
+}
+
+.autorization .help {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.autorization input[type="submit"] {
+    font-size: 30px;
+}
 }
